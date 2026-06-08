@@ -1,0 +1,179 @@
+int M1 = 1;
+int M2 = 2;
+int M3 = 3;
+int M4 = 4;
+int M5 = 5;
+int M6 = 6;
+int M7 = 7;
+int M8 = 8;
+int M9 = 9;
+int M10 = 10;
+
+int LED = 12;
+int buz = 13;
+
+void setup()
+{
+  pinMode(M1, INPUT);
+  pinMode(M2, INPUT);
+  pinMode(M3, INPUT);
+  pinMode(M4, INPUT);
+  pinMode(M5, INPUT);
+  pinMode(M6, INPUT);
+  pinMode(M7, INPUT);
+  pinMode(M8, INPUT);
+  pinMode(M9, INPUT);
+  pinMode(M10, INPUT);
+  
+  pinMode(LED, OUTPUT);
+  pinMode(buz, OUTPUT);
+}
+
+void loop()
+{
+  int mus1 = digitalRead(M1);
+  int mus2 = digitalRead(M2);
+  int mus3 = digitalRead(M3);
+  int mus4 = digitalRead(M4);
+  int mus5 = digitalRead(M5);
+  int mus6 = digitalRead(M6);
+  int Mai = digitalRead(M7); //不可思議のカルテ
+  int mus8 = digitalRead(M8);
+  int mus9 = digitalRead(M9);
+  int test = digitalRead(M10);
+  
+//=--=
+  if (mus1 == 1){
+    tone (buz, 200, 100);
+  }
+  
+  
+//=======-FUKASHIGI NO KARTE/不可思議のカルテ-=======
+  if (Mai == 1)
+  {
+    delay(100);
+    
+    tone(buz, 293.66, 100);
+    delay(300);
+    tone(buz, 440, 50);
+    delay(300);
+    tone(buz, 392, 100);
+    delay(300);
+    tone(buz, 440, 300);
+    delay(1000);
+    
+    tone(buz, 293.66, 100);
+    delay(300);
+    tone(buz, 440, 50);
+    delay(300);
+    tone(buz, 392, 100);
+    delay(300);
+    tone(buz, 440, 300);
+    delay(1000);
+    
+    tone(buz, 293.66, 100);
+    delay(300);
+    tone(buz, 440, 50);
+    delay(300);
+    tone(buz, 392, 100);
+    delay(300);
+    tone(buz, 329.63, 400);
+    delay(600);
+    tone(buz, 349.23, 600);
+    delay(1500);
+    
+    tone(buz, 293.66, 100);
+    delay(300);
+    tone(buz, 440, 50);
+    delay(300);
+    tone(buz, 392, 100);
+    delay(300);
+    tone(buz, 440, 300);
+    delay(1200);
+    
+    tone(buz, 293.66, 100);
+    delay(300);
+    tone(buz, 440, 50);
+    delay(300);
+    tone(buz, 392, 100);
+    delay(300);
+    tone(buz, 523.25, 600);
+    delay(800);
+    tone(buz, 466.16, 600);
+    delay(800);
+    tone(buz, 440.00, 600);
+    delay(800);
+  
+    tone(buz, 622.25, 100);
+    delay(200);
+    tone(buz, 659.26, 100);
+    delay(200);
+    tone(buz, 698.46, 100);
+    delay(200);
+    tone(buz, 659.26, 100);
+    delay(200);
+    tone(buz, 523.25, 100);
+    delay(200);
+    tone(buz, 392.00, 100);
+    delay(200);
+    tone(buz, 349.23, 100);
+    delay(200);
+    tone(buz, 293.66, 100);
+    delay(200);
+    
+    tone(buz, 293.66, 100);
+    delay(200);
+    tone(buz, 440, 50);
+    delay(200);
+    tone(buz, 392, 100);
+    delay(200);
+    tone(buz, 440, 300);
+    delay(700);
+    
+    
+    tone(buz, 523.25, 500);
+    delay(600);
+    tone(buz, 440.00, 500);
+    delay(600);
+    tone(buz, 415.30, 400);
+    delay(600);
+    
+    tone(buz, 329.63, 600);
+    delay(700);
+    tone(buz, 349.23, 500);
+    delay(600);
+    tone(buz, 440.00, 300);
+    delay(600);
+    
+    tone(buz, 293.66, 100);
+    delay(200);
+    tone(buz, 440, 50);
+    delay(200);
+    tone(buz, 392, 100);
+    delay(200);
+    tone(buz, 440, 300);
+    delay(1000);
+    
+    tone(buz, 293.66, 200);
+    delay(300);
+    tone(buz, 440, 200);
+    delay(300);
+    tone(buz, 392, 200);
+    delay(300);
+    
+    tone(buz, 349.23, 500);
+    delay(700);
+    tone(buz, 277.18, 500);
+    delay(700);
+    tone(buz, 329.63, 700);
+  }
+  
+//==========-TEST-==========
+  if (test == 1)
+  {
+    
+    
+  }
+
+  delay(1);
+}

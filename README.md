@@ -1,2 +1,3 @@
 # Music-Box
-It's a device that plays various songs.
+It's a device who plays various songs.
+
