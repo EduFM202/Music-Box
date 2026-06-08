@@ -9,7 +9,7 @@ It's a device who plays various songs. each music i created and i want to add mo
 - **button Five or Turquoise:** $\color{turquoise}{\text {}}$
 - **button Six or Blue:** $\color{blue}{\text {Star Light Zone}}$ ⭐
 - **button Seven or Purple:** $\color{purple}{\text {Fukashigi no Karte/不可思議のカルテ}}$ 🐰
-- **button Eight or Pink:** $\color{pink}{\text {Tiny Light???}}$
+- **button Eight or Pink:** $\color{pink}{\text {Fairy Foutain}}$ 🧚‍♀️
 - **button Nine or Brown:** $\color{brown}{\text {}}$
 - **button Ten or Gray:** $\color{gray}{\text {Test}}$
 
