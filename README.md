@@ -1,7 +1,7 @@
-# Music-Box
+# $\color{blue}{\text {Music Box}}$
 It's a device who plays various songs. each music i created and i want to add more musics.
 
-## each button is a music
+## $\color{yellow}{\text {Each button is a music:}}$
 - **button One or Red:** $\color{red}{\text {Prison Toys}}$ 👁️
 - **button Two or Orange:** $\color{orange}{\text {}}$
 - **button Three or Yellow:** $\color{yellow}{\text {JOJO}}$
@@ -12,5 +12,9 @@ It's a device who plays various songs. each music i created and i want to add mo
 - **button Eight or Pink:** $\color{pink}{\text {Fairy Foutain}}$ 🧚‍♀️
 - **button Nine or Brown:** $\color{brown}{\text {}}$
 - **button Ten or Gray:** $\color{gray}{\text {Test}}$
+
+#
+## $\color{red}{\text {Things to improve:}}$
+
 
 $\color{white}{\text {}}$
